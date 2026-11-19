@@ -57,3 +57,9 @@ python infer_skeleton_experiment_video.py      # 実験動画→CSV
 
 ## 必要ライブラリ
 `mediapipe`, `opencv-python`, `numpy`, `scikit-learn`, `joblib`
+
+## 学習済みモデル
+
+`手型モデル/skeleton_models/` に再学習済みモデルを同梱:
+- `best_skeleton_7class_svm_model.pkl` — 7クラスSVM（3851サンプル・訓練精度98.1%、2026-11-19再学習）
+- `skeleton_svm_scaler.pkl` — StandardScaler
